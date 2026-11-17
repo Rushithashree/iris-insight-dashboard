@@ -1,0 +1,164 @@
+{
+    "project": "Iris Species Inventory Dashboard",
+    "database": "iris_analytics_db",
+    "exported_at": "2026-11-06T13:18:14.819642+05:30",
+    "export_format": "CSV",
+    "reports": [
+        {
+            "report_id": "R01",
+            "filename": "R01_report.csv",
+            "row_count": 3,
+            "column_count": 3,
+            "columns": [
+                "species_id",
+                "species_name",
+                "specimen_count"
+            ],
+            "file_size_bytes": 104,
+            "status": "SUCCESS"
+        },
+        {
+            "report_id": "R02",
+            "filename": "R02_report.csv",
+            "row_count": 3,
+            "column_count": 3,
+            "columns": [
+                "species_name",
+                "specimen_count",
+                "species_percentage"
+            ],
+            "file_size_bytes": 124,
+            "status": "SUCCESS"
+        },
+        {
+            "report_id": "R03",
+            "filename": "R03_report.csv",
+            "row_count": 3,
+            "column_count": 3,
+            "columns": [
+                "species_name",
+                "specimen_count",
+                "avg_sepal_length_cm"
+            ],
+            "file_size_bytes": 122,
+            "status": "SUCCESS"
+        },
+        {
+            "report_id": "R04",
+            "filename": "R04_report.csv",
+            "row_count": 3,
+            "column_count": 3,
+            "columns": [
+                "species_name",
+                "specimen_count",
+                "avg_sepal_width_cm"
+            ],
+            "file_size_bytes": 121,
+            "status": "SUCCESS"
+        },
+        {
+            "report_id": "R05",
+            "filename": "R05_report.csv",
+            "row_count": 3,
+            "column_count": 3,
+            "columns": [
+                "species_name",
+                "specimen_count",
+                "avg_petal_length_cm"
+            ],
+            "file_size_bytes": 122,
+            "status": "SUCCESS"
+        },
+        {
+            "report_id": "R06",
+            "filename": "R06_report.csv",
+            "row_count": 3,
+            "column_count": 3,
+            "columns": [
+                "species_name",
+                "specimen_count",
+                "avg_petal_width_cm"
+            ],
+            "file_size_bytes": 121,
+            "status": "SUCCESS"
+        },
+        {
+            "report_id": "R07",
+            "filename": "R07_report.csv",
+            "row_count": 150,
+            "column_count": 4,
+            "columns": [
+                "specimen_id",
+                "species_name",
+                "sepal_length_cm",
+                "sepal_width_cm"
+            ],
+            "file_size_bytes": 4052,
+            "status": "SUCCESS"
+        },
+        {
+            "report_id": "R08",
+            "filename": "R08_report.csv",
+            "row_count": 150,
+            "column_count": 4,
+            "columns": [
+                "specimen_id",
+                "species_name",
+                "petal_length_cm",
+                "petal_width_cm"
+            ],
+            "file_size_bytes": 4052,
+            "status": "SUCCESS"
+        },
+        {
+            "report_id": "R09",
+            "filename": "R09_report.csv",
+            "row_count": 3,
+            "column_count": 22,
+            "columns": [
+                "species_name",
+                "specimen_count",
+                "min_sepal_length_cm",
+                "max_sepal_length_cm",
+                "sepal_length_range_cm",
+                "avg_sepal_length_cm",
+                "sd_sepal_length_cm",
+                "min_sepal_width_cm",
+                "max_sepal_width_cm",
+                "sepal_width_range_cm",
+                "avg_sepal_width_cm",
+                "sd_sepal_width_cm",
+                "min_petal_length_cm",
+                "max_petal_length_cm",
+                "petal_length_range_cm",
+                "avg_petal_length_cm",
+                "sd_petal_length_cm",
+                "min_petal_width_cm",
+                "max_petal_width_cm",
+                "petal_width_range_cm",
+                "avg_petal_width_cm",
+                "sd_petal_width_cm"
+            ],
+            "file_size_bytes": 744,
+            "status": "SUCCESS"
+        },
+        {
+            "report_id": "R10",
+            "filename": "R10_report.csv",
+            "row_count": 150,
+            "column_count": 8,
+            "columns": [
+                "specimen_id",
+                "source_row_number",
+                "species_name",
+                "sepal_length_cm",
+                "sepal_width_cm",
+                "petal_length_cm",
+                "petal_width_cm",
+                "import_batch_id"
+            ],
+            "file_size_bytes": 6109,
+            "status": "SUCCESS"
+        }
+    ]
+}
